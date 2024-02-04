@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    height: 100%;
+    width: 375px;
+    background-image: url("musicalGorilla.jpg");
+    font-family: Impact;
+  }
+  
+  #title {
+    color: rgb(178, 157, 17);
+    text-shadow: 5px 5px black;
+    font-size: 120px;
+    text-align: center;
+  }
+  
+  .board {
+    width: 100%;
+  }
+  
+  #keys {
+    margin-top: 0px;
+    height: 300px; /* Adjust as needed */
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(9, 30%); /* Adjust the number of columns as needed */
+    grid-template-rows: repeat(3, 30%);    /* Equal height rows */
+    justify-content: center; /* Horizontal alignment */
+    align-content: center;    /* Vertical alignment */
+    justify-items: center;    /* Horizontal alignment of items within each cell */
+    gap: 20px;  /* Adjust the gap value based on your preference */
+  }
+  
+  #clapA,
+  #hiHatS,
+  #kickD,
+  #openHatF,
+  #boomG,
+  #rideH,
+  #snareJ,
+  #tomK,
+  #tinkL {
+    width: 100%; /* Ensure equal width for each grid item */
+    height: 100%; /* Ensure equal height for each grid item */
+    border-radius: 50%; /* Make each box circular */
+  }
+  
+  .inputBoxes {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(1, 0, 1);
+    background-color: rgb(178, 157, 17);
+    color: black;
+    text-align: start;
+    width: 85%;
+    height: 85%;
+    text-align: center;
+  }
+  
